@@ -1,2 +1,4 @@
 # jianshu
-React 简书 练习
+React 简书 
+
+npm start
