@@ -18,7 +18,9 @@ import { LoginWrapper,
 
 class Login extends PureComponent {
     render(){
-        const{ loginStatus } = this.props;
+        const{ 
+            loginStatus 
+        } = this.props;
         if(!loginStatus){
             return(
                 <LoginWrapper>

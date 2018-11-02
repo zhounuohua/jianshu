@@ -1,6 +1,7 @@
 import axios from 'axios'
 import * as constants from './constants';
 import{fromJS} from 'immutable';
+const BASE_URL = '//mock.untilu.com/mock/31';
 
 const changHomeData = (result) => ({
     type:constants.CHANGE_HOME_DATA,
@@ -26,7 +27,7 @@ export const toggleTopShow = (show)=>({
 
 export const getHomeInfo = ()=>{
     return (dispath) => {
-        axios.get('/api/home.json').then((res)=>{
+        axios.get(`${BASE_URL}/api/home`).then((res)=>{
             const result = res.data.data;
             dispath(changHomeData(result));
 

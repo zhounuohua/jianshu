@@ -1,6 +1,5 @@
-import * as constants from './constants';
 import { fromJS} from 'immutable';
-
+import * as constants from './constants';
 
 const defaultState = fromJS({
     login: false
