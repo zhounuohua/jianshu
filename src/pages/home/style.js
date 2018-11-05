@@ -38,7 +38,7 @@ export const HomeRight = styled.div`
 
 export const TopicWrapper = styled.div`
     padding: 20px 0 10px 0;
-    border-bottom 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
 
 `
 
@@ -66,7 +66,7 @@ export const TopicItem = styled.div`
 export const ListItem = styled.div`
     overflow: hidden;
     padding: 20px 0;
-    border-bottom 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
     .pic{
         display: block;
         width: 125px;
@@ -131,9 +131,9 @@ export const  BorderItem = styled.div`
 ` 
 export const BorderList = styled.div`
     width: 100%;
-    .BorderListImg{
+    .BorderListImg{ 
         width: 100%;
-        min-height: 50px;
+        height: 50px;
         margin-bottom: 6px;
         border-radius: 4px;
     }

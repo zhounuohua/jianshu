@@ -38,16 +38,16 @@ class Detail extends PureComponent {
                     </Avatar>
                     <Info>
                         <Name>
-                        <a href="/u/72de72b1a46b">{id}-{name}</a>
+                            <a href="/u/72de72b1a46b">{id}-{name}</a>
                         </Name>
                         <img alt="" className="badgeIcon" title="" src="//upload.jianshu.io/user_badge/f4073b9f-96ea-48f3-ba7b-bb0bb3ad0b61"  />                        
                         <a className="btn btn-success follow"><i className="iconfont"></i><span>关注</span></a>
                         <Meta>
-                        <span >{publishTime}</span>
-                        <span >字数 {wordage}</span>
-                        <span >阅读 {viewsCount}</span>
-                        <span >评论 {commentsCount}</span>
-                        <span >喜欢 {likesCount}</span>
+                            <span >{publishTime}</span>
+                            <span >字数 {wordage}</span>
+                            <span >阅读 {viewsCount}</span>
+                            <span >评论 {commentsCount}</span>
+                            <span >喜欢 {likesCount}</span>
                         </Meta>
                     </Info> 
                 </Author>

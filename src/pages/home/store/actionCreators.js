@@ -27,7 +27,11 @@ export const toggleTopShow = (show)=>({
 
 export const getHomeInfo = ()=>{
     return (dispath) => {
-        axios.get(`${BASE_URL}/api/home`).then((res)=>{
+        axios.get(`${BASE_URL}/api/home`,{
+            params: {
+                token: localStorage.getItem('token')
+              }
+        }).then((res)=>{
             const result = res.data.data;
             dispath(changHomeData(result));
 

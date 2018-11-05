@@ -56,7 +56,7 @@ class Header extends Component {
                     {
                         login?
                         <NavItem onClick={logout} className='right'>退出</NavItem>:
-                        <Link to='./login'><NavItem className='right'>登录</NavItem></Link>
+                        <Link to='./'><NavItem className='right'>登录</NavItem></Link>
                     }
                     
                     <NavItem className='right'>

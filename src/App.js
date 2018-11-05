@@ -18,8 +18,8 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Header />
-            <Route path='/' exact component = {Home}></Route>
-            <Route path='/login' exact component = {Login}></Route>
+            <Route path='/home' exact component = {Home}></Route>
+            <Route path='/' exact component = {Login}></Route>
             <Route path='/write' exact component = {Write}></Route>
             <Route path='/detail/:id' exact component={Detail}></Route>
           </div>
